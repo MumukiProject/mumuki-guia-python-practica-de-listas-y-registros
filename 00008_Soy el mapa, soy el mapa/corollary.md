@@ -1,0 +1,1 @@
+¡Excelente! :clap:. Ahora ya sabemos cómo transformar cada elemento de una lista para obtener una lista nueva :muscle:. De esta manera podemos usar `promedio` con nuestra lista de ganancias. Pero, ¿se puede utilizar la función `promedio` para solo los meses que tuvieron ganancia positiva? :thought_balloon:
