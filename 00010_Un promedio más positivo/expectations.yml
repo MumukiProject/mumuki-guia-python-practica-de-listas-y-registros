@@ -4,8 +4,8 @@ expectations:
   binding: promedioDeBalancesPositivos
   inspection: Uses:promedio
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: promedioDeBalancesPositivos
+  binding: gananciasDeBalancesPositivos
   inspection: Uses:ganancias
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: ganancias
+  binding: gananciasDeBalancesPositivos
   inspection: Uses:balancesPositivos
