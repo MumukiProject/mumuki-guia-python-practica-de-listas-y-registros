@@ -1,3 +1,6 @@
-Viendo que podemos hacer todo lo que nos pide, Ana quiere saber la ganancia promedio de los meses que hubo saldo positivo. :dollar:
+Viendo que podemos hacer todo lo que nos pide, Ana quiere saber la ganancia promedio de los balances positivos. :dollar:
 
-> Definí las funciones  `gananciasPositivas` y `promedioGananciasPositivas`. Podés utilizar la función `cantidadDeMesesPositivos` que hiciste antes.
+> Definí las funciones:
+>
+> * `gananciaPositiva`, que es la suma de las ganancias de los balances positivos
+* `promedioGananciasPositivas` utilizando `gananciaPositiva` y `cantidadDeBalancesPositivos`.
