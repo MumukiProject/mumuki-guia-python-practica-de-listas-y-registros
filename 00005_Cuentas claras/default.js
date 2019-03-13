@@ -1,6 +1,6 @@
-function cantidadDeMesesConGanancia(unPeriodo) {
+function cantidadDeMesesConGanancia(balancesDeUnPeriodo) {
   let cantidad = ????;
-  for (let gananciaDelMes of unPeriodo) {
+  for (let balance of balancesDeUnPeriodo) {
     ????
   }
   return cantidad;
