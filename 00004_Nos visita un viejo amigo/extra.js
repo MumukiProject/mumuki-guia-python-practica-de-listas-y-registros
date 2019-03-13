@@ -1,7 +1,7 @@
-function gananciaTotal(unPeriodo) {
+function gananciaTotal(balancesDeUnPeriodo) {
   let sumatoria = 0;
-  for (let gananciaDelMes of unPeriodo) {
-    sumatoria = sumatoria + gananciaDelMes.ganancia;
+  for (let balance of balancesDeUnPeriodo) {
+    sumatoria = sumatoria + balance.ganancia;
   }
   return sumatoria;
 }
