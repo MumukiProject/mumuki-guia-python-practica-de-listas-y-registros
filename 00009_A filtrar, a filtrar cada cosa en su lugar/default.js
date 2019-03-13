@@ -1,6 +1,6 @@
-function mesesConGanancia(unPeriodo) {
+function balancesPositivos(balancesDeUnPeriodo) {
   let ganancias = ????;
-  for (let gananciaDelMes of unPeriodo) {
+  for (let balance of balancesDeUnPeriodo) {
     ????
   }
   return ganancias;
