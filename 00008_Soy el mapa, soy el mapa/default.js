@@ -1,6 +1,6 @@
-function ganancias(unPeriodo) {
+function ganancias(balancesDeUnPeriodo) {
   let ganancias = ????;
-  for (let gananciaDelMes of unPeriodo) {
+  for (let balance of balancesDeUnPeriodo) {
     ????
   }
   return ganancias;
