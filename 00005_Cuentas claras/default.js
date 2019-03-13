@@ -1,4 +1,4 @@
-function cantidadDeMesesConGanancia(balancesDeUnPeriodo) {
+function cantidadDeBalancesPositivos(balancesDeUnPeriodo) {
   let cantidad = ????;
   for (let balance of balancesDeUnPeriodo) {
     ????
