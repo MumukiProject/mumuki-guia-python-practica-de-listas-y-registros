@@ -1,4 +1,4 @@
-_Ahora que ya sabemos qué función queremos (`gananciaTotal`), razonemos cómo hacerlo..._
+_Ahora que sabemos la función que necesitamos (`gananciaTotal`), razonemos cómo hacerla..._
 
 Vamos de a poquito :hand:: si la lista no tuviera elementos, ¿cuánto debería ser la sumatoria? ¡0!
 
