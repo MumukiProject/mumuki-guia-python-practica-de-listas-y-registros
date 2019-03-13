@@ -1,3 +1,3 @@
-Ahora que tenemos la función `mesesConGananciaPositiva` podemos utilizar la función `promedio` genérica para saber cuál es el promedio de ganancia de los meses cuyos ingresos fueron mayores a cero. 
+Ahora que tenemos la función `ganancias` y `balancesPositivos` podemos utilizar la función `promedio` genérica para saber cuál es el promedio de ganancia de los balances positivos. 
 
-> Definí la función `promedioDeGananciasPositivas` utilizando `promedio`.
+> Definí la función `promedioDeBalancesPositivos` utilizando `promedio`.

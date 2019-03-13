@@ -1,0 +1,1 @@
+Para poder tener la lista que recibe por parámetro `promedio`, primero vas a tener que filtrar los balances positivos y luego mapearlos a ganancias. Recordá que función hace cada una de estas cosas. :wink:

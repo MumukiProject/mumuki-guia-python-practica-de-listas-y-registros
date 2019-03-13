@@ -1,3 +1,7 @@
+/*...solution[8]...*/
+
+/*...solution[9]...*/
+
 function promedio(listaDeNumeros) {
 	return sumatoria(listaDeNumeros) / longitud(listaDeNumeros);
 }
