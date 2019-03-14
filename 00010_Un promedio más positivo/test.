@@ -1,11 +1,11 @@
 describe("", function(){
-  it("balancesPositivos devuelve todas las ganancias si todas son mayores a cero", function() {
+  it("gananciasDeBalancesPositivos devuelve todas las ganancias si todas son mayores a cero", function() {
     assert.deepEqual(gananciasDeBalancesPositivos([{ mes: "enero", ganancia: 10 }, { mes: "febrero", ganancia: 2 }, { mes: "marzo", ganancia: 5 }]), [10, 2, 5])
   })
-  it("balancesPositivos devuelve solo las ganancias que son mayores a cero", function() {
+  it("gananciasDeBalancesPositivos devuelve solo las ganancias que son mayores a cero", function() {
     assert.deepEqual(gananciasDeBalancesPositivos([{ mes: "enero", ganancia: 10 }, { mes: "febrero", ganancia: -2 }, { mes: "marzo", ganancia: 0 }]), [10])
   })
-  it("balancesPositivos deveulve una lista vacía si ninguna ganancia es mayor a 0", function() {
+  it("gananciasDeBalancesPositivos deveulve una lista vacía si ninguna ganancia es mayor a 0", function() {
     assert.deepEqual(gananciasDeBalancesPositivos([{ mes: "enero", ganancia: -10 }, { mes: "febrero", ganancia: -2 }, { mes: "marzo", ganancia: 0 }]), [])
   })
   it("promedioDeBalancesPositivos devuelve el promedio de todas las ganancias que son mayores a cero", function() {
