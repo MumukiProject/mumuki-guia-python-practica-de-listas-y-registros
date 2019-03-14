@@ -1,20 +1,14 @@
-describe("", function() {
-  it("saldosDeMesesConGanancia([1]) es [1]", function() {
-    assert.deepEqual(saldosDeMesesConGanancia([1]), [1])
+describe("", function(){
+  it("balancesPositivos devuelve todas las ganancias si todas son mayores a cero", function() {
+    assert.deepEqual(gananciasDeBalancesPositivos([{ mes: "enero", ganancia: 10 }, { mes: "febrero", ganancia: 2 }, { mes: "marzo", ganancia: 5 }]), [10, 2, 5])
   })
-  it("saldosDeMesesConGanancia([2, 20, 20]) es [2, 20, 20]", function() {
-    assert.deepEqual(saldosDeMesesConGanancia([2, 20, 20]), [2, 20, 20])
+  it("balancesPositivos devuelve solo las ganancias que son mayores a cero", function() {
+    assert.deepEqual(gananciasDeBalancesPositivos([{ mes: "enero", ganancia: 10 }, { mes: "febrero", ganancia: -2 }, { mes: "marzo", ganancia: 0 }]), [10])
   })
-  it("saldosDeMesesConGanancia([]) es []", function() {
-    assert.deepEqual(saldosDeMesesConGanancia([]), [])
+  it("balancesPositivos deveulve una lista vacía si ninguna ganancia es mayor a 0", function() {
+    assert.deepEqual(gananciasDeBalancesPositivos([{ mes: "enero", ganancia: -10 }, { mes: "febrero", ganancia: -2 }, { mes: "marzo", ganancia: 0 }]), [])
   })
-  it("saldosDeMesesConGanancia([0, 0, 0]) es []", function() {
-    assert.deepEqual(saldosDeMesesConGanancia([0, 0, 0]), [])
-  })
-  it("saldosDeMesesConGanancia([10, -10, 2, 100]) es [10, 2, 100]", function() {
-    assert.deepEqual(saldosDeMesesConGanancia([10, -10, 2, 100]), [10, 2, 100])
-  })
-  it("saldosDeMesesConGanancia([-1, -2, -3]) es []", function() {
-    assert.deepEqual(saldosDeMesesConGanancia([-1, -2, -3]), [])
+  it("promedioDeBalancesPositivos devuelve el promedio de todas las ganancias que son mayores a cero", function() {
+    assert.deepEqual(gananciasDeBalancesPositivos([{ mes: "enero", ganancia: 10 }, { mes: "febrero", ganancia: -10 }, { mes: "marzo", ganancia: 2 }, { mes: "abril", ganancia: 0 }]), 6)
   })
 })
