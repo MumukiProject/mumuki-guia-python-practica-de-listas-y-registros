@@ -1,3 +1,5 @@
+Para poder hacer esta nueva función probablemente te sirva tanto `minimo` como `ganancias`. :sunglasses:
+
 `minimo` se utiliza como `maximo`:
 
 ```javascript
