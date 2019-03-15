@@ -1,1 +1,0 @@
-Si hay una función para calcular el mínimo de una lista también hay una para calcular el máximo. ¿Te imaginás como se llama? :stuck_out_tongue_winking_eye:

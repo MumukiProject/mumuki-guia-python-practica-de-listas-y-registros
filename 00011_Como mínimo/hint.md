@@ -1,1 +1,0 @@
-Para poder hacer esta nueva función probablemente te sirva tanto `minimo` como `gananciasDeBalancesPositivos`. :sunglasses:

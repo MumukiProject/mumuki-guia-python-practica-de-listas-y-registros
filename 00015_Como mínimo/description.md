@@ -1,9 +1,4 @@
-Vamos a conocer una nueva función, `minimo`, que nos permite conocer cuál es el valor más bajo en una lista de números. Por ejemplo:
-
-```javascript
-ム minimo([5, 8, 10, 42, 87, 776])
-5
-```
+Suponemos que adivinaste el nombre. En caso que no, es `minimo`. :smile:
 
 > Definí la función `minimaGananciaPositiva` que nos diga cuál es la ganancia más baja de todos los balances positivos. 
 >

@@ -2,7 +2,7 @@
 
 /*...solution[9]...*/
 
-/*...previousSolution...*/
+/*...solution[10]...*/
 
 function minimo(numeros) {
   return Math.min.apply(null, numeros)
@@ -11,6 +11,4 @@ function minimo(numeros) {
 function agregar(lista, elemento) {
   return lista.push(elemento);
 }
-
-
 
