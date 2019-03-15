@@ -9,6 +9,6 @@ describe("", function(){
     assert.deepEqual(gananciasDeBalancesPositivos([{ mes: "enero", ganancia: -10 }, { mes: "febrero", ganancia: -2 }, { mes: "marzo", ganancia: 0 }]), [])
   })
   it("promedioDeBalancesPositivos devuelve el promedio de todas las ganancias que son mayores a cero", function() {
-    assert.equal(gananciasDeBalancesPositivos([{ mes: "enero", ganancia: 10 }, { mes: "febrero", ganancia: -10 }, { mes: "marzo", ganancia: 2 }, { mes: "abril", ganancia: 0 }]), 6)
+    assert.equal(promedioDeBalancesPositivos([{ mes: "enero", ganancia: 10 }, { mes: "febrero", ganancia: -10 }, { mes: "marzo", ganancia: 2 }, { mes: "abril", ganancia: 0 }]), 6)
   })
 })
