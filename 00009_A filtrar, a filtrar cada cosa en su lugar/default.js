@@ -1,7 +1,7 @@
 function balancesPositivos(balancesDeUnPeriodo) {
-  let ganancias = ????;
+  let balances = ????;
   for (let balance of balancesDeUnPeriodo) {
     ????
   }
-  return ganancias;
+  return balances;
 }
