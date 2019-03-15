@@ -26,6 +26,6 @@ let balancesPrimerTrimestre = [{ mes: "enero", ganancia: 80 }, { mes: "febrero",
 
 Y nos preguntó: _"¿Podría usar esta función que me dieron para calcular las ganancias del primer trimestre?"_. :thought_balloon:
 
-> ¿Tiene algún problema la función `gananciasSemestre` que escribimos anteriormente? ¿Funcionará con los balances trimestrales? ¿Y con los cuatrimestrestrales?
+> ¿Tiene algún problema la función `gananciaSemestre` que escribimos anteriormente? ¿Funcionará con los balances trimestrales? ¿Y con los cuatrimestrestrales?
 >
 > ¡Probala en la consola!
