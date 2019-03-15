@@ -17,7 +17,7 @@ function gananciaSemestre(balances) {
 }
 ```
 
-_"Gracias :plus1:"_, nos dijo Ana, y se fue calcular las ganancias usando la función que le pasamos. Pero un rato más tarde, volvió contandonos que también había registrado los balances del primer trimestre de este año:
+_"Gracias :plus1:"_, nos dijo Ana, y se fue calcular las ganancias usando la función que le pasamos. Pero un rato más tarde, volvió contándonos que también había registrado los balances del primer trimestre de este año:
 
 ```javascript
 //En enero la empresa ganó $80, en febrero, $453, en marzo $1000
