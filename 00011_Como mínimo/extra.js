@@ -1,3 +1,5 @@
+/*...solution[8]...*/
+
 /*...previousSolution...*/
 
 function minimo(numeros) {
