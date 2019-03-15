@@ -13,3 +13,7 @@ function sumatoria(listaDeNumeros) {
   }
   return sumatoria;
 }
+
+function agregar(lista, elemento) {
+  return lista.push(elemento);
+}
