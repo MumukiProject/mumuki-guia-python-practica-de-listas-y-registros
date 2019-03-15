@@ -17,3 +17,7 @@ function sumatoria(listaDeNumeros) {
 function agregar(lista, elemento) {
   return lista.push(elemento);
 }
+
+function longitud(lista) {
+  return lista.length
+}
