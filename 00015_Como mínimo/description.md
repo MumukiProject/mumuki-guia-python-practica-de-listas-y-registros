@@ -8,6 +8,6 @@ Suponemos que adivinaste el nombre. En caso que no, es `minimo`. :smile:
       { mes: "febrero", ganancia: 42 }, 
       { mes: "marzo", ganancia: 8}, 
       { mes: "abril", ganancia:  -5}
-    ])
+  ])
 > 8
 > ```
