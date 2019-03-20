@@ -14,7 +14,7 @@ Lo que nos gustaría es poder sumar las ganancias de todos los balances de una l
 >ム gananciaTotal([
       { mes: "enero", ganancia: 2 }, 
       { mes: "febrero", ganancia: 3 }
-    ])
+  ])
 >ム gananciaTotal([
       { mes: "enero", ganancia: 2 }, 
       { mes: "febrero", ganancia: 3 }, 
@@ -22,7 +22,7 @@ Lo que nos gustaría es poder sumar las ganancias de todos los balances de una l
       { mes: "abril", ganancia: 8 }, 
       { mes: "mayo", ganancia: 8 }, 
       { mes: "junio", ganancia: -1 }
-    ])
+  ])
 >ム gananciaTotal([])
 >```
 > Después seguinos para contarte cómo la hicimos. :wink:
