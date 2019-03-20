@@ -6,6 +6,6 @@ Pasemos al siguiente requerimiento de Ana. Ya podemos calcular una sumatoria de 
 > ム gananciaPromedio([
       { mes: "marzo", ganancia: 8 }, 
       { mes: "agosto", ganancia: 10 }
-    ])
+  ])
 > 9
 > ```
