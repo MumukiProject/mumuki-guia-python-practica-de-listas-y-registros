@@ -12,7 +12,7 @@ Vamos a conocer una nueva función, `maximo`, que nos permite conocer cuál es e
       { mes: "enero", ganancia: 87 }, 
       { mes: "febrero", ganancia: 12 }, 
       { mes: "marzo", ganancia: 8}
-    ])
+  ])
 > 87
 > ```
 
