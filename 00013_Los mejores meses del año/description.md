@@ -7,12 +7,30 @@
 * `mesesAfortunados`, devuelve aquellos meses que fueron afortunados.
 >
 ```javascript
-ム meses([{ mes: "enero", ganancia: 870 }, { mes: "febrero", ganancia: 1000 }, { mes: "marzo", ganancia: 1020 }, { mes: "abril", ganancia: 2300 }, { mes: "mayo", ganancia: -10 }])
+ム meses([
+    { mes: "enero", ganancia: 870 }, 
+    { mes: "febrero", ganancia: 1000 }, 
+    { mes: "marzo", ganancia: 1020 }, 
+    { mes: "abril", ganancia: 2300 }, 
+    { mes: "mayo", ganancia: -10 }
+  ])
 ["enero", "febrero", "marzo", "abril", "mayo"]
 >
-ム afortunados([{ mes: "enero", ganancia: 870 }, { mes: "febrero", ganancia: 1000 }, { mes: "marzo", ganancia: 1020 }, { mes: "abril", ganancia: 2300 }, { mes: "mayo", ganancia: -10 }])
+ム afortunados([
+      { mes: "enero", ganancia: 870 }, 
+      { mes: "febrero", ganancia: 1000 }, 
+      { mes: "marzo", ganancia: 1020 }, 
+      { mes: "abril", ganancia: 2300 }, 
+      { mes: "mayo", ganancia: -10 }
+    ])
 [ { mes: "marzo", ganancia: 1020 }, { mes: "abril", ganancia: 2300 }]
 >
-ム mesesAfortunados([{ mes: "enero", ganancia: 870 }, { mes: "febrero", ganancia: 1000 }, { mes: "marzo", ganancia: 1020 }, { mes: "abril", ganancia: 2300 }, { mes: "mayo", ganancia: -10 }])
+ム mesesAfortunados([
+    { mes: "enero", ganancia: 870 }, 
+    { mes: "febrero", ganancia: 1000 }, 
+    { mes: "marzo", ganancia: 1020 }, 
+    { mes: "abril", ganancia: 2300 }, 
+    { mes: "mayo", ganancia: -10 }
+  ])
 ["marzo", "abril"]
 ```
