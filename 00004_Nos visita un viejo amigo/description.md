@@ -34,7 +34,7 @@ Como ves, el `for...of` nos permite visitar y hacer algo con cada elemento de un
     { mes: "marzo", ganancia: -20 }, 
     { mes: "abril", ganancia: 0 }, 
     { mes: "mayo", ganancia: 10 }
-   ])`
+   ])
 ```
 
 
