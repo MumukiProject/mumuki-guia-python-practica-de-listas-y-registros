@@ -3,3 +3,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: maximaGanancia
   inspection: Uses:maximo
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: maximo
+  inspection: Uses:ganancias
