@@ -4,5 +4,5 @@ expectations:
   binding: maximaGanancia
   inspection: Uses:maximo
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: maximo
+  binding: maximaGanancia
   inspection: Uses:ganancias
