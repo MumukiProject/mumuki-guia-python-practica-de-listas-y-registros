@@ -5,4 +5,4 @@ expectations:
   inspection: Uses:maximo
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: maximaGanancia
-  inspection: Not:Uses:for
+  inspection: Not:UsesForeach
