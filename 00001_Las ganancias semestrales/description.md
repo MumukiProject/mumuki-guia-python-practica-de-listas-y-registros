@@ -3,12 +3,12 @@ Ana, contadora de una conocida empresa :office:, tiene registros para representa
 ```python
 //En julio ganó $50, en agosto perdió $12, etc
 balancesUltimoSemestre = [
-  { mes: "julio", ganancia: 50 }, 
-  { mes: "agosto", ganancia: -12 }, 
-  { mes: "septiembre", ganancia: 1000 }, 
-  { mes: "octubre", ganancia: 300 }, 
-  { mes:  "noviembre", ganancia: 200 }, 
-  { mes: "diciembre", ganancia: 0 }
+  { "mes": "julio", "ganancia": 50 }, 
+  { "mes": "agosto", "ganancia": -12 }, 
+  { "mes": "septiembre", "ganancia": 1000 }, 
+  { "mes": "octubre", "ganancia": 300 }, 
+  { "mes":  "noviembre", "ganancia": 200 }, 
+  { "mes": "diciembre", "ganancia": 0 }
 ];
 ```
 
@@ -29,9 +29,9 @@ _"Gracias :plus1:"_, nos dijo Ana, y se fue calcular las ganancias usando la fun
 ```python
 //En enero la empresa ganó $80, en febrero, $453, en marzo $1000
 balancesPrimerTrimestre = [
-  { mes: "enero", ganancia: 80 }, 
-  { mes: "febrero", ganancia: 453 }, 
-  { mes: "marzo", ganancia: 1000 }
+  { "mes": "enero", "ganancia": 80 }, 
+  { "mes": "febrero", "ganancia": 453 }, 
+  { "mes": "marzo", "ganancia": 1000 }
 ];
 ```
 

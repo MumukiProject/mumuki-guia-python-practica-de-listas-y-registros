@@ -3,9 +3,9 @@ Lamentablemente no se puede usar la función `promedio` con nuestra lista de reg
 >
 > ```python
 > ム ganancias([
-      { mes: "enero", ganancia: 40 }, 
-      { mes: "febrero", ganancia: 12 }, 
-      { mes: "marzo", ganancia: 8}
+      { "mes": "enero", "ganancia": 40 }, 
+      { "mes": "febrero", "ganancia": 12 }, 
+      { "mes": "marzo", "ganancia": 8}
   ])
 > [40, 12, 8]
 > ```

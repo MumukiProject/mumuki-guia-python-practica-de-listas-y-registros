@@ -4,8 +4,8 @@ Pasemos al siguiente requerimiento de Ana. Ya podemos calcular una sumatoria de 
 >
 > ```python
 > ム gananciaPromedio([
-      { mes: "marzo", ganancia: 8 }, 
-      { mes: "agosto", ganancia: 10 }
+      { "mes": "marzo", "ganancia": 8 }, 
+      { "mes": "agosto", "ganancia": 10 }
   ])
 > 9
 > ```
