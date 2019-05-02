@@ -13,7 +13,7 @@ def ganancia_total_0(balances_de_un_periodo):
 ```python
 def ganancia_total_1(balances_de_un_periodo):
   sumatoria = 0
-  sumatoria = sumatoria + balances_de_un_periodo[0].ganancia
+  sumatoria = sumatoria + balances_de_un_periodo[0]["ganancia"]
   return sumatoria
 ```
 
@@ -22,8 +22,8 @@ def ganancia_total_1(balances_de_un_periodo):
 ```python
 def ganancia_total_2(balances_de_un_periodo):
   sumatoria = 0
-  sumatoria = sumatoria + balances_de_un_periodo[0].ganancia
-  sumatoria = sumatoria + balances_de_un_periodo[1].ganancia
+  sumatoria = sumatoria + balances_de_un_periodo[0]["ganancia"]
+  sumatoria = sumatoria + balances_de_un_periodo[1]["ganancia"]
   return sumatoria
 ```
 
@@ -32,9 +32,9 @@ def ganancia_total_2(balances_de_un_periodo):
 ```python
 def ganancia_total_3(balances_de_un_periodo):
   sumatoria = 0;
-  sumatoria = sumatoria + balances_de_un_periodo[0].ganancia
-  sumatoria = sumatoria + balances_de_un_periodo[1].ganancia
-  sumatoria = sumatoria + balances_de_un_periodo[2].ganancia
+  sumatoria = sumatoria + balances_de_un_periodo[0]["ganancia"]
+  sumatoria = sumatoria + balances_de_un_periodo[1]["ganancia"]
+  sumatoria = sumatoria + balances_de_un_periodo[2]["ganancia"]
   return sumatoria
 ```
 

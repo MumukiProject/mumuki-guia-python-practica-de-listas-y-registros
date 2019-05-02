@@ -18,9 +18,9 @@ _"Obvio, solo tenemos que sumar las ganancias de todos los balances"_, dijimos, 
 
 ```python
 def ganancia_semestre(balances):
-  return balances[0].ganancia + balances[1].ganancia +
-         balances[2].ganancia + balances[3].ganancia +
-         balances[4].ganancia + balances[5].ganancia
+  return balances[0]["ganancia"] + balances[1]["ganancia"] +
+         balances[2]["ganancia"] + balances[3]["ganancia"] +
+         balances[4]["ganancia"] + balances[5]["ganancia"]
 ```
 
 _"Gracias :plus1:"_, nos dijo Ana, y se fue calcular las ganancias usando la función que le pasamos. Pero un rato más tarde, volvió contándonos que también había registrado los balances del primer trimestre de este año:
