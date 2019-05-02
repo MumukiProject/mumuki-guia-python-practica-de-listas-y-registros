@@ -1,6 +1,6 @@
 function cantidadDeBalancesPositivos(balancesDeUnPeriodo) {
-  let cantidad = ????;
-  for (let balance of balancesDeUnPeriodo) {
+  cantidad = ????;
+  for (balance of balancesDeUnPeriodo) {
     ????
   }
   return cantidad;

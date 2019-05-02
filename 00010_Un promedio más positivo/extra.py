@@ -7,8 +7,8 @@ function promedio(listaDeNumeros) {
 }
 
 function sumatoria(listaDeNumeros) {
-  let sumatoria = 0;
-  for (let numero of listaDeNumeros) {
+  sumatoria = 0;
+  for (numero of listaDeNumeros) {
     sumatoria = sumatoria + numero;
   }
   return sumatoria;

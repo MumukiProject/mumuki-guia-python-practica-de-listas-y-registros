@@ -2,7 +2,7 @@ Ana, contadora de una conocida empresa :office:, tiene registros para representa
 
 ```javascript
 //En julio ganó $50, en agosto perdió $12, etc
-let balancesUltimoSemestre = [
+balancesUltimoSemestre = [
   { mes: "julio", ganancia: 50 }, 
   { mes: "agosto", ganancia: -12 }, 
   { mes: "septiembre", ganancia: 1000 }, 
@@ -28,7 +28,7 @@ _"Gracias :plus1:"_, nos dijo Ana, y se fue calcular las ganancias usando la fun
 
 ```javascript
 //En enero la empresa ganó $80, en febrero, $453, en marzo $1000
-let balancesPrimerTrimestre = [
+balancesPrimerTrimestre = [
   { mes: "enero", ganancia: 80 }, 
   { mes: "febrero", ganancia: 453 }, 
   { mes: "marzo", ganancia: 1000 }

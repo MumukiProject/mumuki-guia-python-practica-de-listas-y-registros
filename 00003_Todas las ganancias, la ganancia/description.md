@@ -4,7 +4,7 @@ Vamos de a poquito :hand:: si la lista no tuviera elementos, ¿cuánto debería 
 
 ```javascript
 function gananciaTotal0(balancesDeUnPeriodo) {
-  let sumatoria = 0;
+  sumatoria = 0;
   return sumatoria;
 }
 ```
@@ -13,7 +13,7 @@ function gananciaTotal0(balancesDeUnPeriodo) {
 
 ```javascript
 function gananciaTotal1(balancesDeUnPeriodo) {
-  let sumatoria = 0;
+  sumatoria = 0;
   sumatoria = sumatoria + balancesDeUnPeriodo[0].ganancia;
   return sumatoria;
 }
@@ -23,7 +23,7 @@ function gananciaTotal1(balancesDeUnPeriodo) {
 
 ```javascript
 function gananciaTotal2(balancesDeUnPeriodo) {
-  let sumatoria = 0;
+  sumatoria = 0;
   sumatoria = sumatoria + balancesDeUnPeriodo[0].ganancia;
   sumatoria = sumatoria + balancesDeUnPeriodo[1].ganancia;
   return sumatoria;
@@ -34,7 +34,7 @@ function gananciaTotal2(balancesDeUnPeriodo) {
 
 ```javascript
 function gananciaTotal3(balancesDeUnPeriodo) {
-  let sumatoria = 0;
+  sumatoria = 0;
   sumatoria = sumatoria + balancesDeUnPeriodo[0].ganancia;
   sumatoria = sumatoria + balancesDeUnPeriodo[1].ganancia;
   sumatoria = sumatoria + balancesDeUnPeriodo[2].ganancia;

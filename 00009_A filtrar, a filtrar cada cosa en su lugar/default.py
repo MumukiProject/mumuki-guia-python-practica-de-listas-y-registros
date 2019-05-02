@@ -1,6 +1,6 @@
 function balancesPositivos(balancesDeUnPeriodo) {
-  let balances = ????;
-  for (let balance of balancesDeUnPeriodo) {
+  balances = ????;
+  for (balance of balancesDeUnPeriodo) {
     ????
   }
   return balances;
