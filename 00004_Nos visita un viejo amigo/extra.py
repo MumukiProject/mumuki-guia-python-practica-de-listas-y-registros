@@ -1,4 +1,4 @@
-function gananciaTotal(balancesDeUnPeriodo) {
+def gananciaTotal(balancesDeUnPeriodo) {
   sumatoria = 0;
   for (balance of balancesDeUnPeriodo) {
     sumatoria = sumatoria + balance.ganancia;

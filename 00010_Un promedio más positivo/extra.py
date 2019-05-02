@@ -2,11 +2,11 @@
 
 /*...solution[9]...*/
 
-function promedio(listaDeNumeros) {
+def promedio(listaDeNumeros) {
 	return sumatoria(listaDeNumeros) / longitud(listaDeNumeros);
 }
 
-function sumatoria(listaDeNumeros) {
+def sumatoria(listaDeNumeros) {
   sumatoria = 0;
   for (numero of listaDeNumeros) {
     sumatoria = sumatoria + numero;
@@ -14,10 +14,10 @@ function sumatoria(listaDeNumeros) {
   return sumatoria;
 }
 
-function agregar(lista, elemento) {
+def agregar(lista, elemento) {
   return lista.push(elemento);
 }
 
-function longitud(lista) {
+def longitud(lista) {
   return lista.length;
 }

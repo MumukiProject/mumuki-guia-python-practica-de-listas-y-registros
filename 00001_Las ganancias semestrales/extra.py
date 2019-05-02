@@ -2,7 +2,7 @@ balancesUltimoSemestre = [{ "mes": "julio", "ganancia": 50 }, { "mes": "agosto",
 
 balancesPrimerTrimestre = [{ "mes": "enero", "ganancia": 80 }, { "mes": "febrero", "ganancia": 453 }, { "mes": "marzo", "ganancia": 1000 }];
 
-function gananciaSemestre(balances) {
+def gananciaSemestre(balances) {
   return balances[0].ganancia + balances[1].ganancia +
          balances[2].ganancia + balances[3].ganancia +
          balances[4].ganancia + balances[5].ganancia;

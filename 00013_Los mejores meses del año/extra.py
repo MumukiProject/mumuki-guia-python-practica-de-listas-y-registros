@@ -1,3 +1,3 @@
-function agregar(lista, elemento) {
+def agregar(lista, elemento) {
   return lista.push(elemento);
 }

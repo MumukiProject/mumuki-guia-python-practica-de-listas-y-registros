@@ -4,11 +4,11 @@
 
 /*...solution[10]...*/
 
-function minimo(numeros) {
+def minimo(numeros) {
   return Math.min.apply(null, numeros)
 }
 
-function agregar(lista, elemento) {
+def agregar(lista, elemento) {
   return lista.push(elemento);
 }
 

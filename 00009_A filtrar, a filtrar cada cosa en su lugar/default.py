@@ -1,4 +1,4 @@
-function balancesPositivos(balancesDeUnPeriodo) {
+def balancesPositivos(balancesDeUnPeriodo) {
   balances = ????;
   for (balance of balancesDeUnPeriodo) {
     ????

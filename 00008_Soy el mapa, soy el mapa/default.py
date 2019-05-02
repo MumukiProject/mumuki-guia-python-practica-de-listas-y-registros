@@ -1,4 +1,4 @@
-function ganancias(balancesDeUnPeriodo) {
+def ganancias(balancesDeUnPeriodo) {
   ganancias = ????;
   for (balance of balancesDeUnPeriodo) {
     ????

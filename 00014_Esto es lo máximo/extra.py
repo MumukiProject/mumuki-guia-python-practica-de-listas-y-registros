@@ -1,10 +1,10 @@
 /*...solution[8]...*/
 
-function maximo(numeros) {
+def maximo(numeros) {
   return Math.max.apply(null, numeros)
 }
 
-function agregar(lista, elemento) {
+def agregar(lista, elemento) {
   return lista.push(elemento);
 }
 

@@ -17,7 +17,7 @@ Y nos acaba de preguntar: _"¿puedo saber la ganancia de todo **un semestre**?"_
 _"Obvio, solo tenemos que sumar las ganancias de todos los balances"_, dijimos, y escribimos el siguiente código:
 
 ```python
-function gananciaSemestre(balances) {
+def gananciaSemestre(balances) {
   return balances[0].ganancia + balances[1].ganancia +
          balances[2].ganancia + balances[3].ganancia +
          balances[4].ganancia + balances[5].ganancia;

@@ -1,7 +1,7 @@
  Lo que tenemos que hacer, entonces, es repetir la operación de acumular varias veces, una por cada elemento de la lista. ¡Digamos hola :wave: (nuevamente) al `for...of`!
 
 ```python
-function gananciaTotal(balancesDeUnPeriodo) {
+def gananciaTotal(balancesDeUnPeriodo) {
   sumatoria = 0;
   for (balance of balancesDeUnPeriodo) {
     sumatoria = sumatoria + balance.ganancia;
