@@ -3,7 +3,7 @@
 ¿Y si la lista tuviera _cualquier_ cantidad de elementos? Si seguimos repitiendo este patrón, veremos que una sumatoria de una lista siempre arranca igual, con `sumatoria = 0`, y termina igual, devolviendo la variable local sumatoria (`return sumatoria`).
 
 ```python
-def gananciaTotalN(unPeriodo) {
+def ganancia_total_n(unPeriodo) {
   sumatoria = 0; // esto siempre está
   //... etc
   return sumatoria; //esto siempre está

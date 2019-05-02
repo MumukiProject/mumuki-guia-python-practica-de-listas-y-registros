@@ -11,7 +11,7 @@ describe("", function(){
   it("afortunados devuelve una lista vacía si ningún balance tiene ganancia mayor a 1000", function() {
     assert.deepEqual(afortunados([{ "mes": "enero", "ganancia": 1000 }, { "mes": "febrero", "ganancia": 0 }, { "mes": "marzo", "ganancia": 200 }, { "mes": "abril", "ganancia": -30 }]), [])
   })
-  it("mesesAfortunados devuelve los meses cuyos balances son mayores a 1000", function() {
-    assert.deepEqual(mesesAfortunados([{ "mes": "enero", "ganancia": 1001 }, { "mes": "febrero", "ganancia": -10 }, { "mes": "marzo", "ganancia": 2300 }, { "mes": "abril", "ganancia": 800 }]), ["enero", "marzo"])
+  it("meses_afortunados devuelve los meses cuyos balances son mayores a 1000", function() {
+    assert.deepEqual(meses_afortunados([{ "mes": "enero", "ganancia": 1001 }, { "mes": "febrero", "ganancia": -10 }, { "mes": "marzo", "ganancia": 2300 }, { "mes": "abril", "ganancia": 800 }]), ["enero", "marzo"])
   })
 })

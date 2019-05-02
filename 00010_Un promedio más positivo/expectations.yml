@@ -1,11 +1,11 @@
 ---
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: promedioDeBalancesPositivos
+  binding: promedio_de_balances_positivos
   inspection: Uses:promedio
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: gananciasDeBalancesPositivos
+  binding: ganancias_de_balances_positivos
   inspection: Uses:ganancias
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: gananciasDeBalancesPositivos
-  inspection: Uses:balancesPositivos
+  binding: ganancias_de_balances_positivos
+  inspection: Uses:balances_positivos

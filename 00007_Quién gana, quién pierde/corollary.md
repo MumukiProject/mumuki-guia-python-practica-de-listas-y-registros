@@ -1,13 +1,13 @@
 Como podés ver todos los promedios se basan en el mismo principio :eyes:. Sumar una cantidad determinada elementos y dividir el resultado por esa cantidad. Si quisiéramos realizar una función `promedio` genérica sería algo así:
 
 ```python
-def promedio(listaDeNumeros) {
-	return sumatoria(listaDeNumeros) / longitud(listaDeNumeros);
+def promedio(lista_de_numeros) {
+	return sumatoria(lista_de_numeros) / longitud(lista_de_numeros);
 }
 
-def sumatoria(listaDeNumeros) {
+def sumatoria(lista_de_numeros) {
   sumatoria = 0;
-  for (numero of listaDeNumeros) {
+  for (numero of lista_de_numeros) {
     sumatoria = sumatoria + numero;
   }
   return sumatoria;

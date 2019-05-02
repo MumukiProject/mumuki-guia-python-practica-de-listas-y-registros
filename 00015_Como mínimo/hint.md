@@ -1,4 +1,4 @@
-Para poder hacer esta nueva función probablemente te sirva tanto `minimo` como `gananciasDeBalancesPositivos`. :sunglasses:
+Para poder hacer esta nueva función probablemente te sirva tanto `minimo` como `ganancias_de_balances_positivos`. :sunglasses:
 
 `minimo` se utiliza como `maximo`:
 

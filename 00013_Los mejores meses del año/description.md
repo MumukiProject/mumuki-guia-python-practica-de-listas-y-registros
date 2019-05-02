@@ -4,7 +4,7 @@ Para eso vamos a hacer las siguientes funciones:
 
 * `meses`, la cual dada una lista con registros devuelve una lista de meses :calendar:;
 * `afortunados`, que filtra aquellos registros que tuvieron una ganancia mayor a $1000 :dollar:;
-* `mesesAfortunados`, devuelve aquellos meses que fueron afortunados.
+* `meses_afortunados`, devuelve aquellos meses que fueron afortunados.
 
 ```python
 ム meses([
@@ -25,7 +25,7 @@ Para eso vamos a hacer las siguientes funciones:
     ])
 [ { "mes": "marzo", "ganancia": 1020 }, { "mes": "abril", "ganancia": 2300 }]
 
-ム mesesAfortunados([
+ム meses_afortunados([
     { "mes": "enero", "ganancia": 870 }, 
     { "mes": "febrero", "ganancia": 1000 }, 
     { "mes": "marzo", "ganancia": 1020 }, 
@@ -34,4 +34,4 @@ Para eso vamos a hacer las siguientes funciones:
   ])
 ["marzo", "abril"]
 ```
-> Definí las funciones `meses`, `afortunados`, `mesesAfortunados`.
+> Definí las funciones `meses`, `afortunados`, `meses_afortunados`.

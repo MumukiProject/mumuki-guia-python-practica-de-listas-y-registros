@@ -1,1 +1,1 @@
-`gananciasPositivas` es muy similar a `cantidadDeBalancesPositivos`, solo que ahora necesitas una sumatoria en vez de un contador. :wink:
+`gananciasPositivas` es muy similar a `cantidad_de_balances_positivos`, solo que ahora necesitas una sumatoria en vez de un contador. :wink:
