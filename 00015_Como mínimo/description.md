@@ -2,7 +2,7 @@ Suponemos que adivinaste el nombre. En caso que no, es `minimo`. :smile:
 
 > Definí la función `minimaGananciaPositiva` que nos diga cuál es la ganancia más baja de todos los balances positivos. 
 >
-> ```javascript
+> ```python
 > ム minimaGananciaPositiva([
       { mes: "enero", ganancia: -40 }, 
       { mes: "febrero", ganancia: 42 }, 

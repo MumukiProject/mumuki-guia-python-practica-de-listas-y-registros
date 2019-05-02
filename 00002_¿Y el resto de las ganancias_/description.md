@@ -10,7 +10,7 @@ Lo que nos gustaría es poder sumar las ganancias de todos los balances de una l
 
 > ¡Relajá! Ya tenemos nuestra versión; probala con las siguientes consultas:
 > 
->```javascript
+>```python
 >ム gananciaTotal([
       { mes: "enero", ganancia: 2 }, 
       { mes: "febrero", ganancia: 3 }

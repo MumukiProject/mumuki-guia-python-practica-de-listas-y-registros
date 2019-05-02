@@ -6,7 +6,7 @@ Para eso vamos a hacer las siguientes funciones:
 * `afortunados`, que filtra aquellos registros que tuvieron una ganancia mayor a $1000 :dollar:;
 * `mesesAfortunados`, devuelve aquellos meses que fueron afortunados.
 
-```javascript
+```python
 ム meses([
     { mes: "enero", ganancia: 870 }, 
     { mes: "febrero", ganancia: 1000 }, 

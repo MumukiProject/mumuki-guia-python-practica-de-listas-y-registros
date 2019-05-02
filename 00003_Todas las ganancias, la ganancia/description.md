@@ -2,7 +2,7 @@ _Ahora que sabemos la función que necesitamos (`gananciaTotal`), razonemos cóm
 
 Vamos de a poquito :hand:: si la lista no tuviera elementos, ¿cuánto debería ser la sumatoria? ¡0!
 
-```javascript
+```python
 function gananciaTotal0(balancesDeUnPeriodo) {
   sumatoria = 0;
   return sumatoria;
@@ -11,7 +11,7 @@ function gananciaTotal0(balancesDeUnPeriodo) {
 
 ¿Y si tuviera exactamente 1 elemento? Sería... 0.... ¿más ese elemento? ¡Exacto! :sunglasses:
 
-```javascript
+```python
 function gananciaTotal1(balancesDeUnPeriodo) {
   sumatoria = 0;
   sumatoria = sumatoria + balancesDeUnPeriodo[0].ganancia;
@@ -21,7 +21,7 @@ function gananciaTotal1(balancesDeUnPeriodo) {
 
 ¿Y si tuviera 2 elementos? :thought_balloon:
 
-```javascript
+```python
 function gananciaTotal2(balancesDeUnPeriodo) {
   sumatoria = 0;
   sumatoria = sumatoria + balancesDeUnPeriodo[0].ganancia;
@@ -32,7 +32,7 @@ function gananciaTotal2(balancesDeUnPeriodo) {
 
 ¿Y si tuviera 3 elementos? :thought_balloon:
 
-```javascript
+```python
 function gananciaTotal3(balancesDeUnPeriodo) {
   sumatoria = 0;
   sumatoria = sumatoria + balancesDeUnPeriodo[0].ganancia;

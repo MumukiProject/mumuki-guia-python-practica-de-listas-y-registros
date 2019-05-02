@@ -1,6 +1,6 @@
  Lo que tenemos que hacer, entonces, es repetir la operación de acumular varias veces, una por cada elemento de la lista. ¡Digamos hola :wave: (nuevamente) al `for...of`!
 
-```javascript
+```python
 function gananciaTotal(balancesDeUnPeriodo) {
   sumatoria = 0;
   for (balance of balancesDeUnPeriodo) {
@@ -14,7 +14,7 @@ Como ves, el `for...of` nos permite visitar y hacer algo con cada elemento de un
 
 > ¿Aún no te convenciste? Nuevamente, probá las siguientes expresiones en la consola:
 >
->``` javascript
+>``` python
 ム gananciaTotal([])
 ム gananciaTotal([
     { mes: "noviembre", ganancia: 5 }
