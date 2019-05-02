@@ -1,13 +1,12 @@
  Lo que tenemos que hacer, entonces, es repetir la operación de acumular varias veces, una por cada elemento de la lista. ¡Digamos hola :wave: (nuevamente) al `for...of`!
 
 ```python
-def ganancia_total(balances_de_un_periodo) {
-  sumatoria = 0;
+def ganancia_total(balances_de_un_periodo):
+  sumatoria = 0
   for (balance of balances_de_un_periodo) {
-    sumatoria = sumatoria + balance.ganancia;
+    sumatoria = sumatoria + balance.ganancia
   }
-  return sumatoria;
-}
+  return sumatoria
 ```
 
 Como ves, el `for...of` nos permite visitar y hacer algo con cada elemento de una lista; en este caso, estaremos visitando cada `balance` de `balances_de_un_periodo`.  

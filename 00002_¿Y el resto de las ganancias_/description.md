@@ -24,5 +24,5 @@ Lo que nos gustaría es poder sumar las ganancias de todos los balances de una l
       { "mes": "junio", "ganancia": -1 }
   ])
 >ム ganancia_total([])
->```
+```
 > Después seguinos para contarte cómo la hicimos. :wink:

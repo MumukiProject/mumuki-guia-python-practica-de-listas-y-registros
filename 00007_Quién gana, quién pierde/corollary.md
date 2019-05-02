@@ -1,16 +1,14 @@
 Como podés ver todos los promedios se basan en el mismo principio :eyes:. Sumar una cantidad determinada elementos y dividir el resultado por esa cantidad. Si quisiéramos realizar una función `promedio` genérica sería algo así:
 
 ```python
-def promedio(lista_de_numeros) {
-	return sumatoria(lista_de_numeros) / longitud(lista_de_numeros);
-}
+def promedio(lista_de_numeros):
+	return sumatoria(lista_de_numeros) / longitud(lista_de_numeros)
 
-def sumatoria(lista_de_numeros) {
-  sumatoria = 0;
+def sumatoria(lista_de_numeros):
+  sumatoria = 0
   for (numero of lista_de_numeros) {
-    sumatoria = sumatoria + numero;
+    sumatoria = sumatoria + numero
   }
-  return sumatoria;
-}
+  return sumatoria
 ```
 ¡Pero nosotros no tenemos una lista de números sino de registros! :fearful: ¿Y entonces? :thought_balloon:
