@@ -3,6 +3,4 @@ balances_ultimo_semestre = [{ "mes": "julio", "ganancia": 50 }, { "mes": "agosto
 balances_primer_trimestre = [{ "mes": "enero", "ganancia": 80 }, { "mes": "febrero", "ganancia": 453 }, { "mes": "marzo", "ganancia": 1000 }]
 
 def ganancia_semestre(balances):
-  return balances[0]["ganancia"] + balances[1]["ganancia"] +
-         balances[2]["ganancia"] + balances[3]["ganancia"] +
-         balances[4]["ganancia"] + balances[5]["ganancia"]
+  return balances[0]["ganancia"] + balances[1]["ganancia"] + balances[2]["ganancia"] + balances[3]["ganancia"] + balances[4]["ganancia"] + balances[5]["ganancia"]
