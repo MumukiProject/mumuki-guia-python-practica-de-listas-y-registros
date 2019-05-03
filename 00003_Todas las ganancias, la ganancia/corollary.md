@@ -4,9 +4,9 @@
 
 ```python
 def ganancia_total_n(unPeriodo):
-  sumatoria = 0; // esto siempre está
-  //... etc
-  return sumatoria; //esto siempre está
+  sumatoria = 0; # esto siempre está
+  #... etc
+  return sumatoria; #esto siempre está
 ```
 
 Lo que cambia son las acumulaciones (`sumatoria = sumatoria + ...`); necesitamos una por cada elemento de la lista. Dicho de otra forma, tenemos que _visitar_ cada elemento del mismo, sin importar cuántos tenga. Pero, ¿cómo hacerlo? ¿No te suena conocida esta idea de _repetir algo muchas veces_? :thought_balloon:

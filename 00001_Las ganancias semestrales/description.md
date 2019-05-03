@@ -1,7 +1,7 @@
 Ana, contadora de una conocida empresa :office:, tiene registros para representar los balances de cada mes y una lista para guardarlos. Por ejemplo, para el último semestre del año pasado registró los siguientes:
 
 ```python
-//En julio ganó $50, en agosto perdió $12, etc
+#En julio ganó $50, en agosto perdió $12, etc
 balances_ultimo_semestre = [
   { "mes": "julio", "ganancia": 50 }, 
   { "mes": "agosto", "ganancia": -12 }, 
@@ -26,7 +26,7 @@ def ganancia_semestre(balances):
 _"Gracias :plus1:"_, nos dijo Ana, y se fue calcular las ganancias usando la función que le pasamos. Pero un rato más tarde, volvió contándonos que también había registrado los balances del primer trimestre de este año:
 
 ```python
-//En enero la empresa ganó $80, en febrero, $453, en marzo $1000
+#En enero la empresa ganó $80, en febrero, $453, en marzo $1000
 balances_primer_trimestre = [
   { "mes": "enero", "ganancia": 80 }, 
   { "mes": "febrero", "ganancia": 453 }, 
