@@ -5,7 +5,7 @@ Vamos a conocer una nueva función, `max`, que nos permite conocer cuál es el m
 776
 ```
 
-> Usando esta nueva función, definí la función `maxima_ganancia` que nos diga cuál es la ganancia más alta de un período de tiempo.
+> Usando esta nueva función, definí la función `maxima_ganancia` que nos diga cuál es la ganancia más alta entre los balances de un período de tiempo.
 >
 > ```python
 > ム maxima_ganancia([
