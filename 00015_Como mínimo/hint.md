@@ -1,8 +1,8 @@
-Para poder hacer esta nueva función probablemente te sirva tanto `minimo` como `ganancias_de_balances_positivos`. :sunglasses:
+Para poder hacer esta nueva función probablemente te sirva tanto `min` como `ganancias_de_balances_positivos`. :sunglasses:
 
-`minimo` se utiliza como `maximo`:
+`min` se utiliza como `max`:
 
 ```python
-ム minimo([5, 8, 10, 42, 87, 776])
+ム min([5, 8, 10, 42, 87, 776])
 5
 ```

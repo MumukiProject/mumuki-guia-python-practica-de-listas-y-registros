@@ -1,4 +1,4 @@
-Suponemos que adivinaste el nombre. En caso que no, es `minimo`. :smile:
+Suponemos que adivinaste el nombre. En caso que no, es `min`. :smile:
 
 > Definí la función `minima_ganancia_positiva` que nos diga cuál es la ganancia más baja de todos los balances positivos. 
 >

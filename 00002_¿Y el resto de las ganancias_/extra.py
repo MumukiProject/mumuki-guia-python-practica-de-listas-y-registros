@@ -1,6 +1,5 @@
-def ganancia_total(balancesDePeriodo):
-  sumatoria = 0;
-  for (balance of balancesDePeriodo) {
-    sumatoria = sumatoria + balance["ganancia"];
-  }
+def ganancia_total(balances_de_periodo):
+  sumatoria = 0
+  for balance in balances_de_periodo:
+    sumatoria = sumatoria + balance["ganancia"]
   return sumatoria

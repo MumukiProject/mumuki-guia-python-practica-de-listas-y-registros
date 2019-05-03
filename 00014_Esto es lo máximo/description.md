@@ -1,7 +1,7 @@
-Vamos a conocer una nueva función, `maximo`, que nos permite conocer cuál es el mayor valor en una lista de números. Por ejemplo: 
+Vamos a conocer una nueva función, `max`, que nos permite conocer cuál es el mayor valor en una lista de números. Por ejemplo: 
 
 ```python
-ム maximo([5, 8, 10, 42, 87, 776])
+ム max([5, 8, 10, 42, 87, 776])
 776
 ```
 

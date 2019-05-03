@@ -31,7 +31,7 @@ def ganancia_total_2(balances_de_un_periodo):
 
 ```python
 def ganancia_total_3(balances_de_un_periodo):
-  sumatoria = 0;
+  sumatoria = 0
   sumatoria = sumatoria + balances_de_un_periodo[0]["ganancia"]
   sumatoria = sumatoria + balances_de_un_periodo[1]["ganancia"]
   sumatoria = sumatoria + balances_de_un_periodo[2]["ganancia"]
