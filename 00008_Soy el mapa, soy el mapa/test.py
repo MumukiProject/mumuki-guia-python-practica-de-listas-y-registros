@@ -1,5 +1,3 @@
-describe("", function(){
-  it("ganancias de los balances de un periodo me devuelve solo los valores de las ganancias", function() {
-    assert.deepEqual(ganancias([{ "mes": "marzo", "ganancia": 10 }, { "mes": "agosto", "ganancia": 2 }, { "mes": "septiembre", "ganancia":0 }]), [10, 2, 0])
-  })
-})
+
+  def test_ganancias_de_los_balances_de_un_periodo_me_devuelve_solo_los_valores_de_las_ganancias(self):
+	self.assertEqual(ganancias([{ "mes": "marzo", "ganancia": 10 }, { "mes": "agosto", "ganancia": 2 }, { "mes": "septiembre", "ganancia":0 }]), [10, 2, 0])
