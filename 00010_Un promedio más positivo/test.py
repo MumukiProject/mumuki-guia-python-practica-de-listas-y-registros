@@ -1,4 +1,4 @@
-e
+
   def test_ganancias_de_balances_positivos_devuelve_todas_las_ganancias_si_todas_son_mayores_a_cero(self):
     self.assertEqual(ganancias_de_balances_positivos([{ "mes": "enero", "ganancia": 10 }, { "mes": "febrero", "ganancia": 2 }, { "mes": "marzo", "ganancia": 5 }]), [10, 2, 5])
 
