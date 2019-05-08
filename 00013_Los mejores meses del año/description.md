@@ -2,8 +2,8 @@
 
 Para eso vamos a hacer las siguientes funciones:
 
-* `meses`, la cual dada una lista con registros devuelve una lista de meses :calendar:;
-* `afortunados`, que filtra aquellos registros que tuvieron una ganancia mayor a $1000 :dollar:;
+* `meses`, la cual dada una lista con diccionarios devuelve una lista de meses :calendar:;
+* `afortunados`, que filtra aquellos diccionarios que tuvieron una ganancia mayor a $1000 :dollar:;
 * `meses_afortunados`, devuelve aquellos meses que fueron afortunados.
 
 ```python

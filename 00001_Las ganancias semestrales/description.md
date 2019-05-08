@@ -1,4 +1,4 @@
-Ana, contadora de una conocida empresa :office:, tiene registros para representar los balances de cada mes y una lista para guardarlos. Por ejemplo, para el último semestre del año pasado registró los siguientes:
+Ana, contadora de una conocida empresa :office:, tiene diccionarios para representar los balances de cada mes y una lista para guardarlos. Por ejemplo, para el último semestre del año pasado registró los siguientes:
 
 ```python
 #En julio ganó $50, en agosto perdió $12, etc

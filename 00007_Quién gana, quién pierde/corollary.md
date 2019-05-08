@@ -10,4 +10,4 @@ def sumatoria(lista_de_numeros):
     sumatoria = sumatoria + numero
   return sumatoria
 ```
-¡Pero nosotros no tenemos una lista de números sino de registros! :fearful: ¿Y entonces? :thought_balloon:
+¡Pero nosotros no tenemos una lista de números sino de diccionarios! :fearful: ¿Y entonces? :thought_balloon:
