@@ -1,4 +1,4 @@
-Como podés ver todos los promedios se basan en el mismo principio :eyes:. Sumar una cantidad determinada elementos y dividir el resultado por esa cantidad. Si quisiéramos realizar una función `promedio` genérica sería algo así:
+Como podés ver todos los promedios se basan en el mismo principio :eyes:. Sumar una cantidad determinada de elementos y dividir el resultado por esa cantidad. Si quisiéramos realizar una función `promedio` genérica sería algo así:
 
 ```python
 def promedio(lista_de_numeros):
