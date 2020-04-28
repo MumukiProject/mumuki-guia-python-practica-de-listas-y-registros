@@ -1,4 +1,4 @@
-¡Vamos a terminar esta lección con todo! :muscle:
+¡Hagamos algunas funciones más! :muscle:
 
 Para eso vamos a hacer las siguientes funciones:
 
