@@ -1,4 +1,4 @@
- Lo que tenemos que hacer, entonces, es repetir la operación de acumular varias veces, una por cada elemento de la lista. ¡Digamos hola :wave: (nuevamente) al `for...in`!
+ Lo que tenemos que hacer, entonces, es repetir la operación de acumular varias veces, una por cada elemento de la lista. ¡Digamos hola :wave: al `for...in`!
 
 ```python
 def ganancia_total(balances_de_un_periodo):
